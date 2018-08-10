@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>JAMNAV API</title>
+	<link href="scss/themes/theme.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="scss/line-numbers.css" />
+
+	<link rel="stylesheet" href="scss/styles.css">
+	<meta 
+	name='viewport' 
+	content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' 
+	/>
+</head>
+<body>
+	<header>
+		<nav>
+			<ul>
+				<li id="jamnav_logo_white" alt="jamnav_logo">
+				</li>
+				<ul>
+					<li><a href="" title="documentation">Documentation</a></li>
+					<li><a href="" title="payments">Payments</a></li>
+					<li><a href="" title="data_tiers">Data Tiers</a></li>
+					<li><a href="" title="support">Support</a></li>
+				</ul>
+				<li><a class="sign_in" href="" title="sign_in">Sign In<div class="icon-arrow"></div></a></li>
+			</ul>
+		</nav>	
+		<div class="banner-content">
+			<article>
+				<header>
+					The new engine for location based solutions
+				</header><!-- /header -->
+				<p>
+					The <span class="banner-article-bold">JAMNAV API</span> will make it easier for developers to create applications that require accurate and detailed location based information by giving access to the extensive <span class="banner-article-bold">datasets</span> that have been created by <span class="banner-article-bold">Mona GeoInformatics Institute</span>.
+				</p>
+			</article>
+			<div class="banner-buttons">
+				<button class="banner-button-docs" type="button">Explore the docs</button>
+				<button class="banner-button-account" type="button">Create an account</button>
+			</div>
+		</div>
+		<div class="banner-shape-circle">
+			<div class="banner-shape-container">
+				<div class="banner-shape-rect-yellow"></div>
+				<div class="banner-shape-rect-red"></div>
+
+				<div class="banner-tilt-gradient-banner-b"></div>
+				<div class="banner-tilt-gradient-banner-a"></div>
+			</div>
+		</div><!-- banner background exists within the circle -->
+	</header><!-- /banner -->
+	<section class="map-container">
+		<div class="ui-dots">
+			<div class="red"></div>
+			<div class="yellow"></div>
+			<div class="green"></div>
+		</div>
+		<div class="map">
+			<div class="pin-orange"></div>
+			<div class="pin-aqua"></div>
+			<div class="pin-yellow"></div>
+			<div class="pin-teal"></div>
+			<div class="pin-red"></div>
+			<div class="pin-purple"></div>
+			<div class="map-legend">
+				<ul>
+					<li class="entertainment"><div class="dot"></div>Entertainment</li>
+					<li class="gas_stations"><div class="dot"></div>Gas Stations</li>
+					<li class="banking"><div class="dot"></div>Banking and Finance</li>
+					<li class="shopping"><div class="dot"></div>Shopping and Recreation</li>
+					<li class="government"><div class="dot"></div>Government Institutions</li>
+				</ul>
+			</div>
+		</div>
+	</section>
+	<section class="jamnavapi">
+		<div class="section-heading">
+			<div class="section-icon-jamnavapi"></div> 
+			<span class="section-title">THE JAMNAV API</span>
+		</div>
+		<p>
+			The <span class="article-bold">JAMNAV API</span> will provide very accurate geospatial data that augments the <span class="article-bold-google">Google Maps</span> platform. The <span class="article-bold">JAMNAV API</span> is Updated frequently by a team of geospatial experts operating out of <span class="article-bold">Jamaica</span>.
+		</p>
+		<div class="jamnav-statements">
+			<div class="card">
+				<div class="icon-gps"></div>
+				<span>GPS Level Accurate Geospatial Data</span>
+			</div>
+			<div class="card">
+				<div class="icon-ground"></div>
+				<span>Frequent On-the-ground Daily Updates</span>
+			</div>
+			<div class="card">
+				<div class="icon-globe"></div>
+				<span>Experts Specializing in Global Geospatial Data.</span>
+			</div>
+		</div>
+	</section>
+	<section class="development">
+		<div class="section-heading">
+			<div class="section-icon-development"></div> 
+			<span class="section-title">DEVELOPMENT</span>
+		</div>
+		<div class="code-samples">
+			<div class="code-container">
+				<div class="sample">
+					<span class="sample-heading">Server Side (Python)</span>
+					<div class="sample-code">
+						<pre class="python"><code data-language="python">
+import requests
+url = "https://api.jamnav.com/v1/settlments"
+headers = {'Authorization': "Bearer <token>"}
+params = {'parish': <parish>, 'name': <settlement_name>}
+r = requests.get(url, params=params, headers=headers)
+
+						</code></pre>						
+					</div>
+				</div>
+				<div class="sample">
+					<div class="sample-heading">Client Side (JQuery)</div>
+					<div class="sample-code">
+						<pre class="javascript"><code data-language="javascript">							
+$.ajax({
+    type: 'GET',
+    dataType: 'json',
+    url: "https://api.jamnav.com/v1/settlments",
+    headers: {"Authorization": "Bearer <token>"}
+});
+
+						</code></pre>
+					</div>
+				</div>
+				<div class="sample">
+					<div class="sample-heading">Mobile (Android-Java)</div>
+					<div class="sample-code">
+						<pre class="java"><code data-language="java">							
+# Make Request
+url = "https://api.jamnav.com/v1/settlements/"
+DefaultHttpClient httpClient = new DefaultHttpClient();
+HttpPost httpPost = new HttpGet(url);
+httpPost.setEntity(new UrlEncodedFormEntity(params));
+httpPost.setHeader("Authorization","Token " + token);
+httpResponse = httpClient.execute(httpPost);
+
+# Parse Response
+httpEntity = httpResponse.getEntity();
+stream = httpEntity.getContent();
+
+						</code></pre>
+					</div>
+				</div>
+			</div>
+			<div class="menu">
+				<span class="menu-heading">API Examples</span>
+				<menu type="toolbar">
+					<li class="selected">Making Requests</li>
+					<li>Creating POIs</li>
+					<li>Loading Pins</li>
+					<li>Making Requests</li>
+				</menu>
+				<div class="separator"></div>
+				<a href="documentation" title="documentation">Full API Reference<div class="icon-api-arrow"></div></a>
+			</div>
+		</div>
+	</section>
+	<section class="payments">
+		<div class="section-heading">
+			<div class="section-icon-payments"></div> 
+			<span class="section-title">PAYMENTS</span>
+		</div>
+		<div class="card-container">
+			<div class="card">
+				<span class="heading monthly">Monthly</span>
+				<div class="separator"></div>
+				<span class="money monthly">$ 17.00</span>
+				<button class="button-monthly" type="button">Select Plan</button>
+			</div>
+			<div class="card">
+				<span class="heading yearly">Yearly</span>
+				<div class="separator"></div>
+				<span class="money yearly">$200.00</span>
+				<button class="button-yearly" type="button">Select Plan</button>
+			</div>
+		</div>
+	</section>
+	<section class="data_tiers">
+		<div class="section-heading">
+			<div class="section-icon-data_tiers"></div> 
+			<span class="section-title">DATA TIERS</span>
+		</div>
+		<div class="free-data">
+			<div class="free">Free Data Tier</div>
+			<span>All POIs for Black River St. Elizabeth will be free for commercial use.</span>
+		</div>
+		<div class="card-container">		
+			<div class="card tier1 tier1-shadow">
+				<div class="icon-tier1"></div>
+				<span class="card-header tier1">TIER 1</span>
+				<span class="card-cost-info">Cost per data request</span>
+				<span class="money tier1">$ 0.12</span>
+				<div class="separator"></div>
+				<ul>
+					<li>Airport</li>
+					<li>Bank</li>
+					<li>ATM</li>
+					<li>Gas Station</li>
+					<li>Store</li>
+				</ul>
+				<div class="ui-dots tier1-dots">
+					<div></div><div></div><div></div>
+				</div>
+			</div>
+			<div class="card tier2 tier2-shadow">
+				<div class="icon-tier2"></div>
+				<span class="card-header tier2">TIER 2</span>
+				<span class="card-cost-info">Cost per data request</span>
+				<span class="money tier2">$ 0.15</span>
+				<div class="separator"></div>
+				<ul>
+					<li>Hospital</li>
+					<li>Hotel</li>
+					<li>Library</li>
+					<li>Museum</li>
+					<li>Theater</li>
+				</ul>
+				<div class="ui-dots tier2-dots">
+					<div></div><div></div><div></div>
+				</div>
+			</div>
+			<div class="card tier3 tier3-shadow">
+				<div class="icon-tier3"></div>
+				<span class="card-header tier3">TIER 3</span>
+				<span class="card-cost-info">Cost per data request</span>
+				<span class="money tier3">$ 0.20</span>
+				<div class="separator"></div>
+				<ul>
+					<li>Restaurants</li>
+					<li>Schools</li>
+					<li>Businesses</li>
+					<li>Community Names</li>
+					<li>Road Names</li>
+				</ul>
+				<div class="ui-dots tier3-dots">
+					<div></div><div></div><div></div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<div class="background-shape-container-1">
+		<div class="background-tilt-gradient-b"></div>
+	</div>
+	<div class="background-shape-container-2">
+		<div class="background-tilt-gradient-a"></div>
+	</div>
+	<footer>
+		<a href="" title="jamnavapi.com" class="jamnav-logo2"></a>
+		<div class="menu">
+			<menu type="list">
+				<li><a href="" title="documentation">Documentation</a></li>
+				<li><a href="" title="payments">Payments</a></li>
+				<li><a href="" title="data_tiers">Data Tiers</a></li>
+				<li><a href="" title="support">Support</a></li>
+				<li><a href="" title="faq">Faq</a></li>
+			</menu>	
+			<div class="social-media-icons">
+				<div class="logo-facebook"></div>		
+				<div class="logo-instagram"></div>		
+				<div class="logo-twitter"></div>		
+			</div>
+		</div>
+		<a href="" title="monagis.com" class="mona-gis-teal"></a>
+		<span class="footer-contact-line1">Visit Us: Mona Geoinformatics Institute, University of the West Indies, Mona Campus, Kingston 7 Jamaica W.I.</span>
+		<span class="footer-contact-line2">Call Us: (876) 9773160-2 Fax: 977-3164 E-mail: info@monainformatixltd.com</span>	
+	</footer>
+	<script src="js/rainbow.min.js"></script>
+	<script src="js/rainbow.linenumbers.js"></script>
+	<script src="js/language/python.js"></script>
+</body>
+</html>

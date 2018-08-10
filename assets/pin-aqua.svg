@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="94px" viewBox="0 0 94 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>pin-aqua</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <filter x="-5.0%" y="-6.3%" width="110.0%" height="117.2%" filterUnits="objectBoundingBox" id="filter-1">
+            <feOffset dx="0" dy="12" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="13" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.04 0" type="matrix" in="shadowBlurOuter1" result="shadowMatrixOuter1"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixOuter1"></feMergeNode>
+                <feMergeNode in="SourceGraphic"></feMergeNode>
+            </feMerge>
+        </filter>
+        <linearGradient x1="50%" y1="0%" x2="50%" y2="100%" id="linearGradient-2">
+            <stop stop-color="#6BFAED" offset="0%"></stop>
+            <stop stop-color="#23CEB5" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="JAMNAV-Homepage" transform="translate(-565.000000, -831.000000)" fill-rule="nonzero">
+            <g id="Group-32" transform="translate(270.000000, 625.000000)">
+                <g id="Group-2" filter="url(#filter-1)" transform="translate(0.000000, 20.000000)">
+                    <g id="pin-aqua" transform="translate(320.000000, 199.000000)">
+                        <g id="Outline">
+                            <g id="Group">
+                                <path d="M39.8457982,27.0311356 C39.8457982,20.3001606 34.7356092,14.8446993 28.4348812,14.8446993 C22.1341532,14.8446993 17.0239642,20.3001606 17.0239642,27.0311356 C17.0239642,35.1554266 28.4348812,49.3729357 28.4348812,49.3729357 C28.4348812,49.3729357 39.8457982,35.1554266 39.8457982,27.0311356 Z" id="Shape" fill="#D1D1D1" style="mix-blend-mode: multiply;" transform="translate(28.434881, 32.108817) rotate(47.000000) translate(-28.434881, -32.108817) "></path>
+                                <path d="M31.1882415,15.4621849 C31.1882415,6.92190476 24.2046744,0 15.5941208,0 C6.98356708,0 0,6.92190476 0,15.4621849 C0,25.7703081 15.5941208,43.8095238 15.5941208,43.8095238 C15.5941208,43.8095238 31.1882415,25.7703081 31.1882415,15.4621849 Z" id="Shape" fill="url(#linearGradient-2)"></path>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

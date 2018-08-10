@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-code</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="JAMNAV-Homepage" transform="translate(-483.000000, -1965.000000)">
+            <g id="Development" transform="translate(270.000000, 1965.000000)">
+                <g id="Group-17" transform="translate(213.000000, 0.000000)">
+                    <g id="icon-code">
+                        <circle id="Oval-2" fill="#B7F0E8" cx="45" cy="45" r="45"></circle>
+                        <g id="code-editor" transform="translate(21.000000, 25.000000)" fill-rule="nonzero">
+                            <path d="M48,7.17241379 L48,2.04926108 C48,0.917044335 47.066087,0 45.9130435,0 L2.08695652,0 C0.933913043,0 0,0.917044335 0,2.04926108 L0,7.17241379 L48,7.17241379 Z" id="Shape" fill="#106064"></path>
+                            <path d="M45.8965517,40.8275862 L14.3448276,40.8275862 L14.3448276,7.17241379 L48,7.17241379 L48,38.7241379 C48,39.8862931 47.0587069,40.8275862 45.8965517,40.8275862 Z" id="Shape" fill="#248D92"></path>
+                            <circle id="Oval" fill="#37BFC0" cx="3.86206897" cy="3.86206897" r="1.65517241"></circle>
+                            <circle id="Oval" fill="#37BFC0" cx="8.82758621" cy="3.86206897" r="1.65517241"></circle>
+                            <circle id="Oval" fill="#37BFC0" cx="13.7931034" cy="3.86206897" r="1.65517241"></circle>
+                            <path d="M15.4482759,40.8275862 L2.05977011,40.8275862 C0.921747126,40.8275862 0,39.8862931 0,38.7241379 L0,7.17241379 L15.4482759,7.17241379 L15.4482759,40.8275862 Z" id="Shape" fill="#1D777B"></path>
+                            <rect id="Rectangle-path" fill="#106064" x="4.4137931" y="10.4827586" width="7.17241379" height="2.20689655"></rect>
+                            <rect id="Rectangle-path" fill="#106064" x="4.4137931" y="16.5517241" width="4.96551724" height="2.20689655"></rect>
+                            <rect id="Rectangle-path" fill="#106064" x="4.4137931" y="23.1724138" width="7.17241379" height="2.20689655"></rect>
+                            <rect id="Rectangle-path" fill="#106064" x="4.4137931" y="29.2413793" width="4.96551724" height="2.20689655"></rect>
+                            <rect id="Rectangle-path" fill="#106064" x="4.4137931" y="35.862069" width="7.17241379" height="2.20689655"></rect>
+                            <rect id="Rectangle-path" fill="#E86C60" x="19.862069" y="10.4827586" width="4.96551724" height="2.20689655"></rect>
+                            <rect id="Rectangle-path" fill="#EFD358" x="24.2758621" y="16.5517241" width="7.17241379" height="2.20689655"></rect>
+                            <rect id="Rectangle-path" fill="#FFFFFF" x="27.0344828" y="23.1724138" width="10.4827586" height="2.20689655"></rect>
+                            <rect id="Rectangle-path" fill="#EFD358" x="24.2758621" y="29.2413793" width="7.17241379" height="2.20689655"></rect>
+                            <rect id="Rectangle-path" fill="#E86C60" x="19.862069" y="35.862069" width="4.96551724" height="2.20689655"></rect>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

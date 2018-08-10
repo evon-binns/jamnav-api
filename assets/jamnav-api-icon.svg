@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>JamNav API Icon</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="JAMNAV-Homepage" transform="translate(-451.000000, -1288.000000)">
+            <g id="The-JAMNAV-API" transform="translate(309.000000, 1288.000000)">
+                <g id="Group-17-Copy" transform="translate(142.000000, 0.000000)">
+                    <g id="JamNav-API-Icon">
+                        <circle id="Oval-2" fill="#B7F0E8" cx="45" cy="45" r="45"></circle>
+                        <g id="navigation" transform="translate(21.000000, 20.000000)" fill-rule="nonzero">
+                            <path d="M39,6 L7,6 C3.1401,6 0,9.1400995 0,13 L0,39 C0,42.8599014 3.1401,46 7,46 L39,46 C42.8599014,46 46,42.8599014 46,39 L46,13 C46,9.1400995 42.8599014,6 39,6 Z" id="Shape" fill="#259BB1"></path>
+                            <path d="M39,12 L7,12 C6.4478002,12 6,12.4477997 6,13 L6,39 C6,39.5522003 6.4478002,40 7,40 L39,40 C39.5522003,40 40,39.5522003 40,39 L40,13 C40,12.4477997 39.5522003,12 39,12 Z" id="Shape" fill="#E6E4E0"></path>
+                            <path d="M33,19.8789005 L27,25.8789005 L22.1210995,21 L31.1211014,12 L26.8789005,12 L12,26.8789005 L6,20.8789005 L6,25.1210994 L9.8788996,29 L6,32.8788986 L6,37.1211014 L12,31.1211014 L20.8789005,40 L27.1210994,40 L38,29.1210995 L40,31.1211014 L40,26.8789005 L33,19.8789005 Z M24,38.8788986 L14.1211004,29 L20,23.1210995 L27,30.1210995 L33,24.1210995 L35.8788986,27 L24,38.8788986 Z" id="Shape" fill="#FFFFFF"></path>
+                            <path d="M21.1210995,12 L16.8789006,12 L13,15.8789005 L9.1211004,12 L7,12 C6.4478002,12 6,12.4477997 6,13 L6,13.1211004 L13,20.1210994 L21.1210995,12 Z" id="Shape" fill="#FFFFFF"></path>
+                            <path d="M23,0 C17.5928001,0 12,4.1146998 12,11 C12,17.5088005 21.8701,27.5307999 22.2900009,27.9545994 C22.4780006,28.1436005 22.7334003,28.25 23,28.25 C23.2665997,28.25 23.5219994,28.1436005 23.7099991,27.9545994 C24.1299,27.5307999 34,17.5088005 34,11 C34,4.1146998 28.4071999,0 23,0 Z" id="Shape" fill="#EB5757"></path>
+                            <circle id="Oval" fill="#FFFFFF" cx="23" cy="11" r="2"></circle>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="90px" viewBox="0 0 90 90" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 47.1 (45422) - http://www.bohemiancoding.com/sketch -->
+    <title>icon-payments</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="JAMNAV-Homepage" transform="translate(-535.000000, -3209.000000)">
+            <g id="Payments" transform="translate(270.000000, 3209.000000)">
+                <g id="Group-18" transform="translate(265.000000, 0.000000)">
+                    <g id="icon-payments">
+                        <circle id="Oval-7" fill="#B7F0E8" cx="45" cy="45" r="45"></circle>
+                        <g id="Group-12" transform="translate(21.000000, 27.000000)" fill-rule="nonzero">
+                            <path d="M44.6002401,35.2653061 L3.11164466,35.2653061 C1.39297959,35.2653061 0,33.8723265 0,32.1536615 L0,3.11164466 C0,1.39297959 1.39297959,0 3.11164466,0 L44.6002401,0 C46.3189052,0 47.7118848,1.39297959 47.7118848,3.11164466 L47.7118848,32.1536615 C47.7118848,33.8723265 46.3189052,35.2653061 44.6002401,35.2653061 Z" id="Shape" fill="#259BB1"></path>
+                            <g id="credit-card" transform="translate(0.000000, 6.000000)">
+                                <rect id="Rectangle-path" fill="#223E49" x="0" y="0.223289316" width="47.7118848" height="8.29771909"></rect>
+                                <rect id="Rectangle-path" fill="#FFFFFF" x="6.22328932" y="14.7442977" width="22.8187275" height="4.14885954"></rect>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
